@@ -521,6 +521,11 @@ html {
 /* Results media queries */
 
 @media screen and (min-width: 456px) and (max-width: 987px) {
+  .container--results {
+    background-position: 55% -10%;
+    height: 87.6rem;
+  }
+
   .container--results-bg {
     display: block;
     position: absolute;
@@ -532,6 +537,11 @@ html {
 }
 
 @media screen and (max-width: 455px) {
+  .container--results {
+    background-position: 35% -10%;
+    height: 149.1rem;
+  }
+
   .container--results-bg {
     display: block;
     position: absolute;
